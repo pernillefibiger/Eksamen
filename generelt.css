@@ -1,0 +1,174 @@
+/* Forside */
+a:link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+a:active {
+  color: rgb(2, 2, 2);
+  text-decoration: none;
+}
+nav > ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  font-family: "Roboto thin", sans-serif;
+  color: #141f26;
+  font-weight: normal;
+  font-size: 10vh;
+  margin: 0;
+}
+
+li {
+  font-family: "Hind-medium.ttf";
+  font-size: 1.5em;
+}
+
+body {
+  background-color: #fffdfd;
+}
+
+/* Font face */
+@font-face {
+  font-family: "Hind-medium.ttf";
+  src: url(Hind/Hind-Medium.ttf);
+}
+@font-face {
+  font-family: "Arapey-Regular.ttf";
+  src: url(Arapey/Arapey-Regular.ttf);
+}
+@font-face {
+  font-family: "Arapey-Italic.ttf";
+  src: url(Arapey/Arapey-Italic.ttf);
+}
+
+/* om mig */
+
+.farve {
+  /* background-color: blanchedalmond; */
+  width: 40%;
+}
+
+#om_mig_div h1 {
+  border-bottom: 4px solid black;
+  padding-bottom: 5px;
+  border-color: #919aa1;
+}
+
+#om_mig_div h2 {
+  font-family: "Roboto thin", sans-serif;
+  font-size: 4vh;
+}
+
+/* portfolio */
+
+#russian_div {
+  background-color: #a4aab0;
+  width: 50vh;
+  padding: 2em;
+  margin-top: 2em;
+}
+#russian_div h1 {
+  font-size: 5vh;
+}
+
+#portfolio_div h1 {
+  border-bottom: 4px solid black;
+  padding-bottom: 5px;
+  border-color: #919aa1;
+  width: 95vh;
+}
+#emnesite_div {
+  background-color: #a4aab0;
+  width: 50vh;
+  padding: 2em;
+  margin-top: 2em;
+}
+#emnesite_div h1 {
+  font-size: 5vh;
+}
+
+#mobilsite_div {
+  background-color: #a4aab0;
+  width: 50vh;
+  padding: 2em;
+  margin-top: 2em;
+}
+#mobilsite_div h1 {
+  font-size: 5vh;
+}
+
+#tshirt_div {
+  background-color: #a4aab0;
+  width: 50vh;
+  padding: 2em;
+  margin-top: 2em;
+}
+
+#tshirt_div h1 {
+  font-size: 5vh;
+}
+
+#pitch_div {
+  background-color: #a4aab0;
+  width: 50vh;
+  padding: 2em;
+  margin-top: 2em;
+}
+
+#pitch_div h1 {
+  font-size: 5vh;
+}
+
+#animation {
+  background-color: #a4aab0;
+  width: 50vh;
+  padding: 2em;
+  margin-top: 2em;
+}
+#animation h1 {
+  font-size: 5vh;
+}
+
+#oneminutewonder_div {
+  background-color: #a4aab0;
+  width: 50vh;
+  padding: 2em;
+  margin-top: 2em;
+}
+#oneminutewonder_div h1 {
+  font-size: 5vh;
+}
+
+#redesign {
+  background-color: #a4aab0;
+  width: 50vh;
+  padding: 2em;
+  margin-top: 2em;
+}
+#redesign h1 {
+  font-size: 5vh;
+}
+
+/* Animation */
+
+#animation_div h1 {
+  margin-top: 2em;
+  border-bottom: 4px solid black;
+  padding-bottom: 5px;
+  border-color: #919aa1;
+  width: 400px;
+  margin-left: 1vh;
+}

@@ -1,0 +1,81 @@
+.main_index {
+  background-image: url("billeder/pexels-pok-rie-2894260.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: max-content;
+  height: 100vh;
+  position: relative;
+  background-attachment: fixed;
+}
+#forside {
+  display: flex;
+  flex-direction: column;
+  justify-self: end;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+/* om mig */
+
+@media (min-width: 800px) {
+  #om_mig_div {
+    display: flex;
+    height: fit-content;
+    justify-content: space-evenly;
+    padding: 4em;
+    margin-top: 4em;
+  }
+}
+
+/* Portfolio */
+#portfolio_div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10em;
+  margin-left: 1em;
+}
+@media (min-width: 800px) {
+  .web_billeder {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    justify-items: center;
+  }
+}
+
+.web_div {
+  margin-top: 5em;
+}
+
+/* animation */
+
+#animation_billede img {
+  margin-top: 3em;
+}
+#animation_billede {
+  justify-content: center;
+}
+
+@media (min-width: 800px) {
+  #animation_billede {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #animation_billede p {
+    padding-left: 5em;
+    padding-right: 9em;
+  }
+}
+@media (min-width: 400px) {
+  #animation_billede {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
